@@ -1,0 +1,79 @@
+body {
+    background-color: #e6ded3;
+    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.container {
+    padding: 50px;
+    margin: 20px;
+}
+
+.box{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #D0D5D9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 2px 20px rgb(191, 189, 189);
+}
+
+.item {
+    color: #32BFB5;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    border-radius: 10px 20px;
+    background-color:#F2F2F280 ;
+    margin-bottom: 10px;
+    
+    border-bottom:  3px solid #F2F2F290;
+}
+
+
+button{
+    background-color: #777E8C;
+    padding: 9px 12px 9px 12px;
+font-size: 1rem;
+font-weight: bold;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+form{
+    padding-top: 10px;
+}
+
+.newItem{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+}
+
+p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+input:checked+p{
+    text-decoration: line-through;
+    color: #777E8C;
+}
